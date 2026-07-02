@@ -1,0 +1,9 @@
+Linear Algebra-Free-95 lectures
+Machine Learning-RS 5900-71 lectures
+Aptitude-Rs 2000-47 lectures
+Programming,Data Structures And Algorithms-Rs 4999-185 lectures
+Python Programming-Rs 499-17 lectures
+DBMS and Warehousing-Rs 2499-90 lectures
+Artificial Intelligence-Rs 2999-110 lectures
+Probability and statistics-Rs 1770-67 lectures
+Calculas and Optimization-Rs 2499-17 lectures

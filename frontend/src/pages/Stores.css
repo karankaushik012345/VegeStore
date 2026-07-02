@@ -1,0 +1,23 @@
+
+.stores-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 20px; }
+.store-card { padding: 20px; display: flex; flex-direction: column; gap: 12px; }
+.store-card-header { display: flex; justify-content: space-between; align-items: center; }
+.store-avatar { width: 48px; height: 48px; background: #1b5e20; border-radius: 10px; display: flex; align-items: center; justify-content: center; }
+.store-rating { display: flex; align-items: center; gap: 4px; background: #fff8e1; padding: 4px 10px; border-radius: 20px; font-size: 13px; font-weight: 700; color: #f57c00; }
+.store-name { font-size: 17px; font-weight: 800; color: #1b2e1c; }
+.store-details { display: flex; flex-direction: column; gap: 7px; }
+.store-detail-row { display: flex; gap: 8px; font-size: 13px; color: #666; align-items: flex-start; }
+.store-detail-row span { line-height: 1.4; }
+.store-product-count { font-size: 13px; font-weight: 600; color: #1b5e20; background: #e8f5e9; padding: 5px 10px; border-radius: 4px; width: fit-content; }
+.store-sample-products { display: flex; gap: 6px; }
+.store-sample-img { width: 52px; height: 52px; border-radius: 8px; overflow: hidden; border: 1px solid #f0f0f0; }
+.store-sample-img img { width: 100%; height: 100%; object-fit: cover; }
+.store-view-btn { display: flex; align-items: center; justify-content: center; gap: 6px; background: #1b5e20; color: white; border: none; padding: 11px; border-radius: 8px; font-size: 14px; font-weight: 600; margin-top: auto; transition: background 0.2s; }
+.store-view-btn:hover { background: #2e7d32; }
+.store-back-btn { display: flex; align-items: center; gap: 6px; background: none; border: 1px solid #e0e0e0; padding: 8px 14px; border-radius: 7px; font-size: 14px; font-weight: 600; color: #424242; margin-bottom: 24px; transition: all 0.15s; }
+.store-back-btn:hover { border-color: #1b5e20; color: #1b5e20; }
+.store-detail-header { display: flex; gap: 20px; align-items: flex-start; background: white; border-radius: 12px; padding: 24px; box-shadow: 0 2px 12px rgba(0,0,0,0.07); margin-bottom: 8px; }
+.store-detail-icon { width: 64px; height: 64px; background: #1b5e20; border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+.store-detail-header h1 { font-size: 24px; font-weight: 800; color: #1b2e1c; margin-bottom: 10px; }
+.store-detail-meta { display: flex; flex-wrap: wrap; gap: 14px; }
+.store-detail-meta span { display: flex; align-items: center; gap: 6px; font-size: 13px; color: #666; }
